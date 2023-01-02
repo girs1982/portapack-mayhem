@@ -27,7 +27,7 @@ namespace ui
                 // TODO: Generate this automatically from github
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?to=2022-01-01&from=2020-04-12&type=c
                 console.writeln("\x1B\x06Mayhem:\x1B\x10");
-                console.writeln("eried,euquiq,gregoryfenton");
+                console.writeln("Gila Prince");
                 console.writeln("johnelder,jwetzell,nnemanjan00");
                 console.writeln("N0vaPixel,klockee,GullCode");
                 console.writeln("jamesshao8,ITAxReal,rascafr");
@@ -45,7 +45,7 @@ namespace ui
             case 2:
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?to=2020-04-12&from=2015-07-31&type=c
                 console.writeln("\x1B\x06Havoc:\x1B\x10");
-                console.writeln("furrtek,mrmookie,NotPike");
+                console.writeln("Gila Prince");
                 console.writeln("mjwaxios,ImDroided,Giorgiofox");
                 console.writeln("F4GEV,z4ziggy,xmycroftx");
                 console.writeln("troussos,silascutler");
@@ -58,14 +58,14 @@ namespace ui
             case 3:
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?from=2014-07-05&to=2015-07-31&type=c
                 console.writeln("\x1B\x06PortaPack:\x1B\x10");
-                console.writeln("jboone,argilo");
+                console.writeln("Gila Prince");
                 console.writeln("");
                 break;
 
             case 4:
                 // https://github.com/mossmann/hackrf/graphs/contributors
                 console.writeln("\x1B\x06HackRF:\x1B\x10");
-                console.writeln("mossmann,dominicgs,bvernoux");
+                console.writeln("Gila Prince");
                 console.writeln("bgamari,schneider42,miek");
                 console.writeln("willcode,hessu,Sec42");
                 console.writeln("yhetti,ckuethe,smunaut");

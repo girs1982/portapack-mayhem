@@ -70,6 +70,8 @@
 #include "ui_view_wav.hpp"
 #include "ui_whipcalc.hpp"
 
+#include "ui_newapp.hpp"
+
 //#include "acars_app.hpp"
 #include "ais_app.hpp"
 #include "analog_audio_app.hpp"
@@ -87,6 +89,7 @@
 #include "ui_looking_glass_app.hpp"
 #include "file.hpp"
 #include "png_writer.hpp"
+
 
 using portapack::receiver_model;
 using portapack::transmitter_model;
@@ -522,6 +525,7 @@ TransmittersMenuView::TransmittersMenuView(NavigationView& nav) {
 		{ "TEDI/LCR",		ui::Color::yellow(), 	&bitmap_icon_lcr,		[&nav](){ nav.push<LCRView>(); } },
 		{ "TouchTune",		ui::Color::yellow(),	&bitmap_icon_remote,	[&nav](){ nav.push<TouchTunesView>(); } },
                 { "Playlist",           ui::Color::yellow(),    &bitmap_icon_remote,    [&nav](){ nav.push<PlaylistView>(); } },
+				  { "NewApp", ui::Color::red(), &bitmap_icon_remote, [&nav](){ nav.push<NewAppView>(); } },
 
 		//{ "Remote",			ui::Color::dark_grey(),	&bitmap_icon_remote,	[&nav](){ nav.push<RemoteView>(); } },
 	});
