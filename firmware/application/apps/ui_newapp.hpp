@@ -41,8 +41,8 @@ namespace ui
         //       This gives you 30x38 char
 
         Button button_helloWorld{
-            {70, 128, 100, 24},            // Coordinates are: int:x (px), int:y (px), int:width (px), int:height (px)
-            "Hello World!"                 // Title
+            {70, 78, 100, 34},            // Coordinates are: int:x (px), int:y (px), int:width (px), int:height (px)
+            "Push IT!"                 // Title
         };
 
         LiveDateTime timestamp {
