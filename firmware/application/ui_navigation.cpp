@@ -96,7 +96,7 @@
 #include "ui_looking_glass_app.hpp"
 #include "file.hpp"
 #include "png_writer.hpp"
-
+#include "ui_newapp.hpp"
 using portapack::receiver_model;
 using portapack::transmitter_model;
 namespace pmem = portapack::persistent_memory;
@@ -550,6 +550,7 @@ TransmittersMenuView::TransmittersMenuView(NavigationView& nav) {
         //{"Playlist", ui::Color::green(), &bitmap_icon_scanner, [&nav]() { nav.push<PlaylistView>(); }},
         {"S.Painter", ui::Color::orange(), &bitmap_icon_paint, [&nav]() { nav.push<SpectrumPainterView>(); }},
         //{ "Remote",			ui::Color::dark_grey(),	&bitmap_icon_remote,	[&nav](){ nav.push<RemoteView>(); } },
+          { "NewApp", ui::Color::green(), &bitmap_icon_remote, [&nav](){ nav.push<NewAppView>(); } },
     });
 }
 
