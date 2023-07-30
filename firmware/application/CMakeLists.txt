@@ -302,6 +302,7 @@ set(CPPSRC
 	apps/ui_spectrum_painter.cpp
 	apps/ui_spectrum_painter_image.cpp
 	apps/ui_spectrum_painter_text.cpp
+	apps/ui_newapp.cpp
 	protocols/aprs.cpp
 	protocols/ax25.cpp
 	protocols/bht.cpp
