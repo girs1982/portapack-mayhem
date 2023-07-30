@@ -17,7 +17,7 @@ namespace ui
 
         NewAppView(NavigationView &nav);                    // App class init function declaration
         std::string title() const override { 
-            return "New App";                               // App Title
+            return "Probniy App";                               // App Title
         };
 
     private:
